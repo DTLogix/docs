@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
+  base: '/',
   title: 'DTLogix Docs',
   description: 'Документація DTLogix',
   lang: 'uk-UA',
