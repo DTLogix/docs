@@ -104,6 +104,8 @@
 
 **Unit Economics:**
 
+Детальні unit economics по сегментах: [/business-model/unit-economics.md](/business-model/unit-economics.md)
+
 | Метрика | Етап | Цільове значення | Статус |
 | ------- | ---- | ---------------- | ------ |
 | LTV:CAC | V1 | ≥ 3:1 | TBD |
@@ -119,7 +121,9 @@
 
 | Метрика | Етап | Цільове значення | Статус |
 | ------- | ---- | ---------------- | ------ |
-| ARPU | V1/V2 | $40–60/міс на компанію | TBD |
+| ARPU | V1/V2 | $40–60/міс на компанію (загалом) | TBD |
+
+> **Примітка:** Детальний breakdown ARPU по сегментах (A: $40-60, B: $60-100) та визначення термінів: [/business-model/unit-economics.md](/business-model/unit-economics.md), [/business-model/glossary.md](/business-model/glossary.md).
 
 ### Технічні цілі
 

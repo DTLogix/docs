@@ -85,6 +85,10 @@
 
 ## Пріоритизація між етапами
 
+Детальний перелік must-have та nice-to-have функцій для MVP: [/strategy/mvp.md](/strategy/mvp.md#must-have-функції).
+
+**Короткий огляд:**
+
 ### Must-have для MVP
 
 - створення заявки

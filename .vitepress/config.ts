@@ -31,6 +31,8 @@ export default defineConfig({
             { text: 'Структура витрат', link: '/business-model/7-cost-structure' },
             { text: 'Ключові метрики', link: '/business-model/8-key-metrics' },
             { text: 'Нечесна перевага', link: '/business-model/9-unfair-advantage' },
+            { text: 'Глосарій', link: '/business-model/glossary' },
+            { text: 'Unit Economics', link: '/business-model/unit-economics' },
           ]
         }
       ],
@@ -55,6 +57,7 @@ export default defineConfig({
             { text: 'Персони', link: '/research/personas' },
             { text: 'Конкуренти', link: '/research/competitors' },
             { text: 'Ринок', link: '/research/market' },
+            { text: 'Валідація гіпотез', link: '/research/validation-log' },
           ]
         }
       ],
@@ -68,6 +71,10 @@ export default defineConfig({
             { text: 'Документація', link: '/processes/documentation' },
             { text: 'Релізи', link: '/processes/release' },
             { text: 'Ролі', link: '/processes/roles' },
+            { text: 'QA процеси', link: '/processes/qa-processes' },
+            { text: 'Code review', link: '/processes/code-review' },
+            { text: 'Технічний борг', link: '/processes/technical-debt' },
+            { text: 'Онбординг команди', link: '/processes/team-onboarding' },
           ]
         }
       ],
@@ -79,12 +86,15 @@ export default defineConfig({
             { text: 'Огляд системи', link: '/product/overview' },
             { text: 'Модулі', link: '/product/modules' },
             { text: 'Сценарії використання', link: '/product/use-cases' },
+            { text: 'Архітектура', link: '/product/architecture' },
+            { text: 'Інтеграції', link: '/product/integrations' },
           ]
         }
       ],
       '/brand-kit/': [
         {
           text: 'Brand Kit',
+          link: '/brand-kit/index',
           items: [
             { text: 'Основи', link: '/brand-kit/1-foundations' },
             { text: 'Історія', link: '/brand-kit/2-story' },
@@ -106,6 +116,7 @@ export default defineConfig({
                 { text: 'Стиль UI', link: '/brand-kit/visual-identity/6-ui-style' },
               ]
             },
+            { text: 'Дизайн-система', link: '/brand-kit/design-system' },
             { text: 'AI-промпти', link: '/brand-kit/9-ai-prompts' },
             { text: 'Приклади застосування', link: '/brand-kit/10-examples' },
           ]

@@ -16,53 +16,27 @@
 
 ### Комерційні метрики
 
-- CAC
-- LTV
+- CAC (див. [/business-model/glossary.md](/business-model/glossary.md#cac-customer-acquisition-cost))
+- LTV (див. [/business-model/glossary.md](/business-model/glossary.md#ltv-lifetime-value))
 - conversion demo → paid
-- churn rate
+- churn rate (див. [/business-model/glossary.md](/business-model/glossary.md#churn-rate))
 
 ### AI-метрики
 
 - точність виявлення відхилень
 - середнє відхилення ETA
 
-## Unit economics (гіпотези)
+## Unit Economics
 
-> **Важливо:** Усі цифри в цьому розділі є орієнтирами для планування та мають бути підтверджені даними.
+Детальний опис unit economics, включаючи ARPU, CAC, LTV, LTV:CAC та payback period по сегментах: [/business-model/unit-economics.md](/business-model/unit-economics.md).
 
-### Customer Acquisition Cost (CAC)
+**Короткий огляд:**
+- CAC: Сегмент A ($20–30), Сегмент B ($30–50)
+- LTV: Сегмент A ($480–1080), Сегмент B ($1080–2400)
+- LTV:CAC: MVP/V1 ≥ 3:1, V2 ≥ 5:1
+- Payback period: 2–4 місяці
 
-**Сегмент A (Соло-експедитори):**
-- Орієнтовний CAC: $20–30
-- Основний канал: прямі продажі, реферали
-
-**Сегмент B (Малі логістичні компанії):**
-- Орієнтовний CAC: $30–50
-- Основний канал: демонстрації, кастомні onboarding-скрипти
-
-### Lifetime Value (LTV)
-
-**Сегмент A:**
-- Орієнтовний ARPU: $40–60/міс
-- Середній термін життя: 12–18 місяців
-- Орієнтовний LTV: $480–1080
-
-**Сегмент B:**
-- Орієнтовний ARPU: $60–100/міс
-- Середній термін життя: 18–24 місяці
-- Орієнтовний LTV: $1080–2400
-
-### LTV:CAC
-
-**Цільове співвідношення:**
-- MVP/V1: LTV:CAC ≥ 3:1
-- V2: LTV:CAC ≥ 5:1
-
-### Payback period
-
-**Цільовий payback period:**
-- Орієнтовно: 2–4 місяці
-- Залежить від сегменту та каналу залучення
+Визначення термінів: [/business-model/glossary.md](/business-model/glossary.md).
 
 ## Гіпотези
 
