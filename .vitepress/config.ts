@@ -20,7 +20,6 @@ export default defineConfig({
       '/business-model/': [
         {
           text: 'Бізнес-модель',
-          link: '/business-model/index',
           items: [
             { text: 'Проблеми', link: '/business-model/1-problems' },
             { text: 'Цільові сегменти клієнтів', link: '/business-model/2-customers-segments' },
@@ -39,7 +38,6 @@ export default defineConfig({
       '/strategy/': [
         {
           text: 'Стратегія',
-          link: '/strategy/index',
           items: [
             { text: 'Бачення', link: '/strategy/vision' },
             { text: 'Дорожня карта', link: '/strategy/roadmap' },
@@ -51,7 +49,6 @@ export default defineConfig({
       '/research/': [
         {
           text: 'Дослідження',
-          link: '/research/index',
           items: [
             { text: 'Інтерв\'ю', link: '/research/interviews' },
             { text: 'Персони', link: '/research/personas' },
@@ -64,7 +61,6 @@ export default defineConfig({
       '/processes/': [
         {
           text: 'Процеси',
-          link: '/processes/index',
           items: [
             { text: 'Розробка', link: '/processes/development' },
             { text: 'Планування', link: '/processes/planning' },
@@ -81,7 +77,6 @@ export default defineConfig({
       '/product/': [
         {
           text: 'Продукт',
-          link: '/product/index',
           items: [
             { text: 'Огляд системи', link: '/product/overview' },
             { text: 'Модулі', link: '/product/modules' },
@@ -94,7 +89,6 @@ export default defineConfig({
       '/brand-kit/': [
         {
           text: 'Brand Kit',
-          link: '/brand-kit/index',
           items: [
             { text: 'Основи', link: '/brand-kit/1-foundations' },
             { text: 'Історія', link: '/brand-kit/2-story' },
@@ -106,7 +100,7 @@ export default defineConfig({
             { text: 'Фреймворк повідомлень', link: '/brand-kit/8-messaging' },
             { 
               text: 'Візуальна ідентичність',
-              link: '/brand-kit/visual-identity/index',
+              link: '/brand-kit/visual-identity/',
               items: [
                 { text: 'Логотип', link: '/brand-kit/visual-identity/1-logo' },
                 { text: 'Кольори', link: '/brand-kit/visual-identity/2-color' },
