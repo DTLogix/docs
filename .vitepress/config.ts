@@ -10,12 +10,14 @@ export default defineConfig({
     nav: [
       { text: 'Головна', link: '/' },
       { text: 'Бізнес-модель', link: '/business-model/' },
+      { text: 'Продукт', link: '/product/' },
       { text: 'Brand Kit', link: '/brand-kit/' }
     ],
     sidebar: {
       '/business-model/': [
         {
           text: 'Бізнес-модель',
+          link: '/business-model/index',
           items: [
             { text: 'Проблеми', link: '/business-model/1-problems' },
             { text: 'Цільові сегменти клієнтів', link: '/business-model/2-customers-segments' },
@@ -29,11 +31,21 @@ export default defineConfig({
           ]
         }
       ],
+      '/product/': [
+        {
+          text: 'Продукт',
+          link: '/product/index',
+          items: [
+            { text: 'Огляд системи', link: '/product/overview' },
+            { text: 'Модулі', link: '/product/modules' },
+            { text: 'Сценарії використання', link: '/product/use-cases' },
+          ]
+        }
+      ],
       '/brand-kit/': [
         {
           text: 'Brand Kit',
           items: [
-            { text: 'Вступ', link: '/brand-kit/index' },
             { text: 'Основи', link: '/brand-kit/1-foundations' },
             { text: 'Історія', link: '/brand-kit/2-story' },
             { text: 'Цінності', link: '/brand-kit/3-values' },
@@ -44,8 +56,8 @@ export default defineConfig({
             { text: 'Фреймворк повідомлень', link: '/brand-kit/8-messaging' },
             { 
               text: 'Візуальна ідентичність',
+              link: '/brand-kit/visual-identity/index',
               items: [
-                { text: 'Вступ', link: '/brand-kit/visual-identity/index' },
                 { text: 'Логотип', link: '/brand-kit/visual-identity/1-logo' },
                 { text: 'Кольори', link: '/brand-kit/visual-identity/2-color' },
                 { text: 'Типографіка', link: '/brand-kit/visual-identity/3-typography' },
