@@ -12,6 +12,7 @@ export default defineConfig({
       { text: 'Бізнес-модель', link: '/business-model/' },
       { text: 'Стратегія', link: '/strategy/' },
       { text: 'Дослідження', link: '/research/' },
+      { text: 'Процеси', link: '/processes/' },
       { text: 'Продукт', link: '/product/' },
       { text: 'Brand Kit', link: '/brand-kit/' }
     ],
@@ -54,6 +55,18 @@ export default defineConfig({
             { text: 'Персони', link: '/research/personas' },
             { text: 'Конкуренти', link: '/research/competitors' },
             { text: 'Ринок', link: '/research/market' },
+          ]
+        }
+      ],
+      '/processes/': [
+        {
+          text: 'Процеси',
+          link: '/processes/index',
+          items: [
+            { text: 'Розробка', link: '/processes/development' },
+            { text: 'Планування', link: '/processes/planning' },
+            { text: 'Документація', link: '/processes/documentation' },
+            { text: 'Релізи', link: '/processes/release' },
           ]
         }
       ],
