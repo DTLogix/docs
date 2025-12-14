@@ -11,6 +11,7 @@ export default defineConfig({
       { text: 'Головна', link: '/' },
       { text: 'Бізнес-модель', link: '/business-model/' },
       { text: 'Стратегія', link: '/strategy/' },
+      { text: 'Дослідження', link: '/research/' },
       { text: 'Продукт', link: '/product/' },
       { text: 'Brand Kit', link: '/brand-kit/' }
     ],
@@ -41,6 +42,18 @@ export default defineConfig({
             { text: 'Дорожня карта', link: '/strategy/roadmap' },
             { text: 'MVP', link: '/strategy/mvp' },
             { text: 'Цілі', link: '/strategy/goals' },
+          ]
+        }
+      ],
+      '/research/': [
+        {
+          text: 'Дослідження',
+          link: '/research/index',
+          items: [
+            { text: 'Інтерв\'ю', link: '/research/interviews' },
+            { text: 'Персони', link: '/research/personas' },
+            { text: 'Конкуренти', link: '/research/competitors' },
+            { text: 'Ринок', link: '/research/market' },
           ]
         }
       ],
