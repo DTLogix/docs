@@ -9,22 +9,53 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Головна', link: '/' },
-      { text: 'Lean Canvas', link: '/lean-canvas/' }
+      { text: 'Бізнес-модель', link: '/business-model/' },
+      { text: 'Brand Kit', link: '/brand-kit/' }
     ],
     sidebar: {
-      '/lean-canvas/': [
+      '/business-model/': [
         {
-          text: 'Lean Canvas',
+          text: 'Бізнес-модель',
           items: [
-            { text: 'Проблеми', link: '/lean-canvas/1-problems' },
-            { text: 'Цільові сегменти клієнтів', link: '/lean-canvas/2-customers-segments' },
-            { text: 'Унікальна ціннісна пропозиція', link: '/lean-canvas/3-uvp' },
-            { text: 'Рішення', link: '/lean-canvas/4-solutions' },
-            { text: 'Канали', link: '/lean-canvas/5-channels' },
-            { text: 'Джерела доходів', link: '/lean-canvas/6-revenue-streams' },
-            { text: 'Структура витрат', link: '/lean-canvas/7-cost-structure' },
-            { text: 'Ключові метрики', link: '/lean-canvas/8-key-metrics' },
-            { text: 'Нечесна перевага', link: '/lean-canvas/9-unfair-advantage' },
+            { text: 'Проблеми', link: '/business-model/1-problems' },
+            { text: 'Цільові сегменти клієнтів', link: '/business-model/2-customers-segments' },
+            { text: 'Унікальна ціннісна пропозиція', link: '/business-model/3-uvp' },
+            { text: 'Рішення', link: '/business-model/4-solutions' },
+            { text: 'Канали', link: '/business-model/5-channels' },
+            { text: 'Джерела доходів', link: '/business-model/6-revenue-streams' },
+            { text: 'Структура витрат', link: '/business-model/7-cost-structure' },
+            { text: 'Ключові метрики', link: '/business-model/8-key-metrics' },
+            { text: 'Нечесна перевага', link: '/business-model/9-unfair-advantage' },
+          ]
+        }
+      ],
+      '/brand-kit/': [
+        {
+          text: 'Brand Kit',
+          items: [
+            { text: 'Вступ', link: '/brand-kit/index' },
+            { text: 'Основи', link: '/brand-kit/1-foundations' },
+            { text: 'Історія', link: '/brand-kit/2-story' },
+            { text: 'Цінності', link: '/brand-kit/3-values' },
+            { text: 'Особистість', link: '/brand-kit/4-personality' },
+            { text: 'Тон і голос', link: '/brand-kit/5-tone-and-voice' },
+            { text: 'Атмосфера', link: '/brand-kit/6-atmosphere' },
+            { text: 'Емоційна палітра', link: '/brand-kit/7-emotional-palette' },
+            { text: 'Фреймворк повідомлень', link: '/brand-kit/8-messaging' },
+            { 
+              text: 'Візуальна ідентичність',
+              items: [
+                { text: 'Вступ', link: '/brand-kit/visual-identity/index' },
+                { text: 'Логотип', link: '/brand-kit/visual-identity/1-logo' },
+                { text: 'Кольори', link: '/brand-kit/visual-identity/2-color' },
+                { text: 'Типографіка', link: '/brand-kit/visual-identity/3-typography' },
+                { text: 'Іконки', link: '/brand-kit/visual-identity/4-icons' },
+                { text: 'Стиль зображень', link: '/brand-kit/visual-identity/5-imagery-style' },
+                { text: 'Стиль UI', link: '/brand-kit/visual-identity/6-ui-style' },
+              ]
+            },
+            { text: 'AI-промпти', link: '/brand-kit/9-ai-prompts' },
+            { text: 'Приклади застосування', link: '/brand-kit/10-examples' },
           ]
         }
       ]
