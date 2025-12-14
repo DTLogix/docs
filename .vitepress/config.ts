@@ -67,6 +67,7 @@ export default defineConfig({
             { text: 'Планування', link: '/processes/planning' },
             { text: 'Документація', link: '/processes/documentation' },
             { text: 'Релізи', link: '/processes/release' },
+            { text: 'Ролі', link: '/processes/roles' },
           ]
         }
       ],
