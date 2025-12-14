@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'Головна', link: '/' },
       { text: 'Бізнес-модель', link: '/business-model/' },
+      { text: 'Стратегія', link: '/strategy/' },
       { text: 'Продукт', link: '/product/' },
       { text: 'Brand Kit', link: '/brand-kit/' }
     ],
@@ -28,6 +29,18 @@ export default defineConfig({
             { text: 'Структура витрат', link: '/business-model/7-cost-structure' },
             { text: 'Ключові метрики', link: '/business-model/8-key-metrics' },
             { text: 'Нечесна перевага', link: '/business-model/9-unfair-advantage' },
+          ]
+        }
+      ],
+      '/strategy/': [
+        {
+          text: 'Стратегія',
+          link: '/strategy/index',
+          items: [
+            { text: 'Бачення', link: '/strategy/vision' },
+            { text: 'Дорожня карта', link: '/strategy/roadmap' },
+            { text: 'MVP', link: '/strategy/mvp' },
+            { text: 'Цілі', link: '/strategy/goals' },
           ]
         }
       ],
