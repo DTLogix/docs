@@ -44,6 +44,7 @@
 
 10. **[Глосарій](./glossary.md)** - Визначення ключових термінів (CAC, LTV, ARPU, churn rate, RICE, unit economics, клієнтський лінк).
 11. **[Unit Economics](./unit-economics.md)** - Детальний опис unit economics по сегментах (ARPU, CAC, LTV, LTV:CAC, payback period).
+12. **[Калькулятор втрат](./loss-calculator.md)** - Детальна специфікація інтерактивного калькулятора втрат як lead magnet для залучення лідів.
 
 ---
 

@@ -15,7 +15,7 @@
 ### Consideration
 
 - DEMO-сесії
-- лендінг з інтерактивним «калькулятором втрат»
+- лендінг з [інтерактивним «калькулятором втрат»](/business-model/loss-calculator.md)
 - email-серії
 
 ### Conversion

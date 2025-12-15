@@ -32,6 +32,7 @@ export default defineConfig({
             { text: 'Нечесна перевага', link: '/business-model/9-unfair-advantage' },
             { text: 'Глосарій', link: '/business-model/glossary' },
             { text: 'Unit Economics', link: '/business-model/unit-economics' },
+            { text: 'Калькулятор втрат', link: '/business-model/loss-calculator' },
           ]
         }
       ],
