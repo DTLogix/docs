@@ -14,6 +14,7 @@ export default defineConfig({
       { text: 'Дослідження', link: '/research/' },
       { text: 'Процеси', link: '/processes/' },
       { text: 'Продукт', link: '/product/' },
+      { text: 'Маркетинг', link: '/marketing/' },
       { text: 'Brand Kit', link: '/brand-kit/' }
     ],
     sidebar: {
@@ -83,7 +84,18 @@ export default defineConfig({
             { text: 'Модулі', link: '/product/modules' },
             { text: 'Сценарії використання', link: '/product/use-cases' },
             { text: 'Архітектура', link: '/product/architecture' },
+            { text: 'Технологічний стек', link: '/product/tech-stack' },
             { text: 'Інтеграції', link: '/product/integrations' },
+          ]
+        }
+      ],
+      '/marketing/': [
+        {
+          text: 'Маркетинг',
+          items: [
+            { text: 'CRO (Conversion Rate Optimization)', link: '/marketing/cro' },
+            { text: 'Профілі лендінгів', link: '/marketing/landings-profiles' },
+            { text: 'Conversion Copywriting Prompt Framework', link: '/marketing/ccpf' },
           ]
         }
       ],
