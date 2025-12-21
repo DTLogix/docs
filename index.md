@@ -64,7 +64,7 @@ layout: home
   <p class="section-card-description">
     Опис Lean Canvas для DTLogix: проблеми, сегменти, ціннісна пропозиція, рішення, канали, доходи, витрати, метрики та нечесна перевага.
   </p>
-  <a href="/business-model/" class="section-card-link">Перейти до розділу</a>
+  <a href="/docs/business-model/" class="section-card-link">Перейти до розділу</a>
 </div>
 
 <div class="section-card">
@@ -75,7 +75,7 @@ layout: home
   <p class="section-card-description">
     Функціональний опис DTLogix: огляд системи, модулі, сценарії використання, процеси всередині продукту.
   </p>
-  <a href="/product/" class="section-card-link">Перейти до розділу</a>
+  <a href="/docs/product/" class="section-card-link">Перейти до розділу</a>
 </div>
 
 <div class="section-card">
@@ -86,7 +86,7 @@ layout: home
   <p class="section-card-description">
     Бачення продукту, дорожня карта розвитку, критерії MVP та цілі на різних етапах.
   </p>
-  <a href="/strategy/" class="section-card-link">Перейти до розділу</a>
+  <a href="/docs/strategy/" class="section-card-link">Перейти до розділу</a>
 </div>
 
 <div class="section-card">
@@ -97,7 +97,7 @@ layout: home
   <p class="section-card-description">
     Матеріали discovery: інтерв'ю з користувачами, персони, аналіз конкурентів та ринку на основі гіпотез з Lean Canvas.
   </p>
-  <a href="/research/" class="section-card-link">Перейти до розділу</a>
+  <a href="/docs/research/" class="section-card-link">Перейти до розділу</a>
 </div>
 
 <div class="section-card">
@@ -108,7 +108,7 @@ layout: home
   <p class="section-card-description">
     Внутрішні workflow та стандарти команди: принципи розробки, планування, документація, процеси релізів.
   </p>
-  <a href="/processes/" class="section-card-link">Перейти до розділу</a>
+  <a href="/docs/processes/" class="section-card-link">Перейти до розділу</a>
 </div>
 
 <div class="section-card">
@@ -119,7 +119,7 @@ layout: home
   <p class="section-card-description">
     Матеріали з оптимізації конверсії, створення лендінгів та генерації контенту: принципи CRO, профілі лендінгів, фреймворк для AI-генерації.
   </p>
-  <a href="/marketing/" class="section-card-link">Перейти до розділу</a>
+  <a href="/docs/marketing/" class="section-card-link">Перейти до розділу</a>
 </div>
 
 <div class="section-card">
@@ -130,7 +130,7 @@ layout: home
   <p class="section-card-description">
     Системний опис бренду: місія, цінності, тон і голос, емоційний профіль, візуальна ідентичність, кольори, типографіка, іконки, приклади застосування.
   </p>
-  <a href="/brand-kit/" class="section-card-link">Перейти до розділу</a>
+  <a href="/docs/brand-kit/" class="section-card-link">Перейти до розділу</a>
 </div>
 
 </div>
